@@ -79,7 +79,7 @@ def check_user(id, name):
 
 @app.route('/')
 def index():
-    db.create_all()
+    # db.create_all()
     return 'Welcome to Line Bot!'
 
 @app.route("/callback", methods=['POST'])
